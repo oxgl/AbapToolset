@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZBASIS_ABAP</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Generic ABAP messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZBASIS_ABAP</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Reserved for ZCX_ABAP_BOOLEXPR_ERROR (040 ~ 060)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZBASIS_ABAP</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Empty string is not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZBASIS_ABAP</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Missing parentheses in expression</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

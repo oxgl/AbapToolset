@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ABAP_BOOLEXPR_PARSER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ABAP Simple boolean expression parser</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_CHAR_ALTERNATIVES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character alternatives</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_CHAR_NOT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Not character</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SEPA_AND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>And character</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SEPA_OR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Or character</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get parser instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_TERM_EVAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Term evaluator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SPLIT_EXPRESSION_AT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Split expression at given char (considering parentheses)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TRIM_UNNEEDED_PARENTHESES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Trim needless parentheses</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_TERM_EVAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Simple boolean expression parser term evaluator</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IO_TERM_EVAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Simple boolean expression parser term evaluator</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_PARSER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Simple boolean expression parser</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SPLIT_EXPRESSION_AT</CMPNAME>
+     <SCONAME>ET_PARTS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>String table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SPLIT_EXPRESSION_AT</CMPNAME>
+     <SCONAME>EV_DEPTH</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Depth =&gt; should be 0 if expression is syntactically correct</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SPLIT_EXPRESSION_AT</CMPNAME>
+     <SCONAME>IV_EXPRESSION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Expression</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SPLIT_EXPRESSION_AT</CMPNAME>
+     <SCONAME>IV_SEPARATOR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Separator</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TRIM_UNNEEDED_PARENTHESES</CMPNAME>
+     <SCONAME>EV_EXPRESSION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Expression after trimming</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TRIM_UNNEEDED_PARENTHESES</CMPNAME>
+     <SCONAME>EV_FOUND</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unneded parentheses found</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TRIM_UNNEEDED_PARENTHESES</CMPNAME>
+     <SCONAME>IV_EXPRESSION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Expression</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
