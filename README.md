@@ -31,7 +31,7 @@ Operator ! has the highest precedence, then & and finally |.
 Parser will split up the expression, but can't evaluate the value of the terms in the expression (is status X true or false?). It will call an object with interface ZIF_ABAP_BOOLEXPR_TERM_EVAL, which has to return ABAP_TRUE or ABAP_FALSE for given term.
 In most cases we can use methods of class ZCL_ABAP_BOOLEXPR_UTILS... 
 
-Consider an example when we have to check whether an object has active statuses: ( (s1 or s2) and s3 ) or (s4 but not s5). Our bool expression should look like: ((s1|s2)&s3)|(s4&!s5). We know the active status list of object is s1,s3,s7. We can use the abovementioned class to check the expression:
+Consider an example when we have to check whether an object has active statuses: ( (s1 or s2) and s3 ) or (s4 but not s5). Our bool expression should look like: ((s1|s2)&s3)|(s4&!s5). We know the active status list of this object is s1,s3,s7. We can use the abovementioned class to check the expression:
 
 ```
 DATA:
